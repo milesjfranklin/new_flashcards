@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #d3cce3, #e9e4f0); /* Subtle gradient background */
+  color: #504658; /* Main text color */
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #504658;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Flashcard Styles */
+
+.flashcard {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding some shadow for depth */
+  padding: 20px;
+  width: 700px; /* Adjust width as needed */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.flashcard img {
+  width:100%;
+}
+
+.flashcard p {
+  color: #504658;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.flashcard p#back-side {
+  text-align:left;
+}
+
+/* Button Styles */
+.button {
+  background-color: #817078; /* Button color */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Raleway', sans-serif;
+}
+
+.button:hover {
+  background-color: #413145; /* Button hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .flashcard {
+    width: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .button {
+    padding: 10px 20px;
+  }
+}
